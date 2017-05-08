@@ -14,5 +14,8 @@ public class Main {
         System.out.println(jorgie.getBalance());
         jorgie.withdrawl(10.00);
         jorgie.deposit(20.00);
+
+        BankAccount jorgiesAccount = new BankAccount ("Jorgie", "jorgie@mush.com", "123456");
+        System.out.println(jorgiesAccount.getBalance());
     }
 }

@@ -10,6 +10,13 @@ public class BankAccount {
     private String email;
     private String phoneNumber;
 
+    public BankAccount(String customerName, String email, String phoneNumber) {
+        this(99999, 100.55, customerName, email, phoneNumber);
+        this.customerName = customerName;
+        this.email = email;
+        this.phoneNumber = phoneNumber;
+    }
+
     public BankAccount() {
       this(56789, 2.50, "Default name", "Default address", "default phone");
         System.out.println("default constructor called");
