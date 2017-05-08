@@ -17,5 +17,8 @@ public class Main {
 
         BankAccount jorgiesAccount = new BankAccount ("Jorgie", "jorgie@mush.com", "123456");
         System.out.println(jorgiesAccount.getBalance());
+
+        VipCustomer jorgenna = new VipCustomer("jorgie", 150.00, "jorgie@mush.com");
+        System.out.println(jorgenna.getCreditLimit());
     }
 }
